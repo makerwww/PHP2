@@ -1,5 +1,5 @@
 <?php
-namespace App\Model;
+namespace App\models;
 trait TCalcRows
 {
     public $test = 'asd';

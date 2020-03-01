@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Model;
-use App\Model\TCalcRows;
-use App\Services\IDB;
+namespace App\models;
+use App\models\TCalcRows;
+use App\services\IDB;
 /**
  * Class Model
  */

@@ -1,9 +1,9 @@
 <?php
 
-use App\Model\User;
-use App\Model\Good;
-use App\Services\Autoload;
-use App\Services\DB;
+use App\models\User;
+use App\models\Good;
+use App\services\Autoload;
+use App\services\DB;
 
 include dirname(__DIR__) . "/services/Autoload.php";
 spl_autoload_register([new Autoload(), 'loadClass']);
